@@ -16,10 +16,7 @@ class ProductSeeder extends Seeder
     public function run()
     {
         Product::create([
-            'product_title' => 'Growing Fruits and Vegetables',
-            'product_image' =>  'product.jpg',
-            'product_content' =>  '"alteration in some form, by injected humour, or adagg',
-            'slug' => Str::slug('Growing Fruits and Vegetables')
+
         ]);
     }
 }

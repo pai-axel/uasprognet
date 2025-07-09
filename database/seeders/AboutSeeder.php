@@ -16,11 +16,7 @@ class AboutSeeder extends Seeder
     public function run()
     {
         About::create([
-            'about_title' => 'Berdirinya cv ananta',
-            'about_year' =>  '2010',
-            'about_image' =>  'about.jpeg',
-            'about_content' => '"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam"',
-            'slug' => Str::slug('Berdirinya cv ananta')
+
         ]);
     }
 }
