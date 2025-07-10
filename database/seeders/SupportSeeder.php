@@ -15,7 +15,10 @@ class SupportSeeder extends Seeder
     public function run()
     {
         Support::create([
-
+            'client_name' => 'Tio Fulalo Simatupang',
+            'client_phone' => '089521391996',
+            'client_email' => 'fulalotio@gmail.com',
+            'client_text' => 'Pelayanannya sangat bagus',
         ]);
     }
 }
