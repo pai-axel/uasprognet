@@ -397,7 +397,7 @@ CREATE TABLE `options` (
 --
 
 INSERT INTO `options` (`id`, `company_name`, `theme_color`, `banner_image`, `location`, `call`, `email`, `maps`, `product_footer`, `slug`, `created_at`, `updated_at`) VALUES
-(1, 'UASPROGNET', 'white', 'banner.webp', 'Jln Jermal Raya Link XII Sei Mati', '089521301996', 'fulalotio@gmail.com', 'https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed', 'necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful', 'uasprognet', '2024-12-16 11:04:13', '2024-12-16 11:04:13');
+(1, 'UASPROGNET', 'white', 'banner.webp', 'Jln Jermal Raya Link XII Sei Mati', '089521301996', 'example@gmail.com', 'https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed', 'necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful', 'uasprognet', '2024-12-16 11:04:13', '2024-12-16 11:04:13');
 
 -- --------------------------------------------------------
 
@@ -528,7 +528,7 @@ CREATE TABLE `seo` (
 --
 
 INSERT INTO `seo` (`id`, `domain_canonical`, `meta_title`, `meta_description`, `meta_keywords`, `meta_language`, `meta_author`, `og_image`, `slug`, `created_at`, `updated_at`) VALUES
-(1, 'tes123', 'white', 'Jln Jermal Raya Link XII Sei Mati', '089521301996', 'fulalotio@gmail.com', 'https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed', 'blog1.jpg', 'tes123', '2024-12-16 11:04:13', '2024-12-16 11:04:13');
+(1, 'tes123', 'white', 'Jln Jermal Raya Link XII Sei Mati', '089521301996', 'example@gmail.com', 'https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed', 'blog1.jpg', 'tes123', '2024-12-16 11:04:13', '2024-12-16 11:04:13');
 
 -- --------------------------------------------------------
 
@@ -551,7 +551,7 @@ CREATE TABLE `struktur_organisasi` (
 --
 
 INSERT INTO `struktur_organisasi` (`id`, `nama_anggota`, `posisi`, `image_anggota`, `slug`, `created_at`, `updated_at`) VALUES
-(1, 'Tio Fulalo Simatupang', 'Ketua', 'tio.jpg', 'tio-fulalo-simatupang', '2024-12-16 11:04:13', '2024-12-16 11:04:13'),
+(1, 'Axel', 'Ketua', 'tio.jpg', 'example@gmail.com', '2024-12-16 11:04:13', '2024-12-16 11:04:13'),
 (2, 'Ama fani', 'CEO1', '1734373027-istockphoto-914118332-170667a.jpg', 'ama-fani', '2024-12-16 11:14:22', '2024-12-16 11:17:07');
 
 -- --------------------------------------------------------
@@ -575,7 +575,10 @@ CREATE TABLE `support` (
 --
 
 INSERT INTO `support` (`id`, `client_name`, `client_phone`, `client_email`, `client_text`, `created_at`, `updated_at`) VALUES
-(1, 'Tio Fulalo Simatupang', '089521391996', 'fulalotio@gmail.com', 'Pelayanannya sangat bagus', '2024-12-16 11:04:13', '2024-12-16 11:04:13');
+(1, 'Axel', '08123456789', 'example@gmail.com', 'Pelayanannya sangat bagus', '2024-12-16 11:04:13', '2024-12-16 11:04:13');
+(2, 'Hanif', '08123456789', 'example@gmail.com', 'Pelayanannya sangat bagus', '2024-12-16 11:04:13', '2024-12-16 11:04:13');
+(3, 'Okto', '08123456789', 'example@gmail.com', 'Pelayanannya sangat bagus', '2024-12-16 11:04:13', '2024-12-16 11:04:13');
+(4, 'Ryan', '08123456789', 'example@gmail.com', 'Pelayanannya sangat bagus', '2024-12-16 11:04:13', '2024-12-16 11:04:13');
 
 -- --------------------------------------------------------
 
@@ -710,7 +713,10 @@ CREATE TABLE `testimoni` (
 --
 
 INSERT INTO `testimoni` (`id`, `testi_client_name`, `testi_client_avatar`, `testi_client_content`, `slug`, `created_at`, `updated_at`) VALUES
-(1, 'Tio Fulalo Simatupang', 'avatar.jpg', '\"alteration in some form, by injected humour, or adagg', 'tio-fulalo-simatupang', '2024-12-16 11:04:14', '2024-12-16 11:04:14');
+(1, 'Axel', 'avatar.jpg', '\"alteration in some form, by injected humour, or adagg', 'axel-axel', '2024-12-16 11:04:14', '2024-12-16 11:04:14');
+(2, 'Hanif', 'avatar.jpg', '\"alteration in some form, by injected humour, or adagg', 'axel-axel', '2024-12-16 11:04:14', '2024-12-16 11:04:14');
+(3, 'Okto', 'avatar.jpg', '\"alteration in some form, by injected humour, or adagg', 'axel-axel', '2024-12-16 11:04:14', '2024-12-16 11:04:14');
+(4, 'Ryan', 'avatar.jpg', '\"alteration in some form, by injected humour, or adagg', 'axel-axel', '2024-12-16 11:04:14', '2024-12-16 11:04:14');
 
 -- --------------------------------------------------------
 
