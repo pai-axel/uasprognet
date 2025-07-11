@@ -6,6 +6,7 @@ use App\Models\About;
 use App\Models\Footer;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use Illuminate\Support\Facades\File;
 use RealRashid\SweetAlert\Facades\Alert;
 
 class AboutController extends Controller
@@ -156,7 +157,12 @@ class AboutController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $about = About::findOrFail($id);
+        File::delete('upload/about/' . $about->about_image);
+        $about->delete();
+    
+        Alert::success('Sukses', 'Data berhasil dihapus');
+        return redirect('/about');
     }
 
     public function konfirmasi($id)
