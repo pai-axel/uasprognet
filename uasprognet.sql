@@ -2,8 +2,8 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jan 03, 2025 at 07:01 AM
+-- Host: localhost
+-- Generation Time: Jul 10, 2025 at 08:58 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db_cvananta`
+-- Database: `prognetuas`
 --
 
 -- --------------------------------------------------------
@@ -271,7 +271,6 @@ INSERT INTO `gallery` (`id`, `gallery_title`, `gallery_image`, `slug`, `created_
 (8, 'fsfsfsfsf', '1734945299-istockphoto-914118332-170667a.jpg', 'fsfsfsfsf', '2024-12-23 02:14:59', '2024-12-23 02:14:59');
 
 -- --------------------------------------------------------
-axel
 
 --
 -- Table structure for table `kategori_berita`
@@ -553,8 +552,7 @@ CREATE TABLE `struktur_organisasi` (
 
 INSERT INTO `struktur_organisasi` (`id`, `nama_anggota`, `posisi`, `image_anggota`, `slug`, `created_at`, `updated_at`) VALUES
 (1, 'Axel', 'Ketua', 'tio.jpg', 'axel', '2024-12-16 11:04:13', '2024-12-16 11:04:13'),
-(2, 'Ryan', 'CEO9', 'tio.jpg', 'yan', '2024-12-16 11:04:13', '2024-12-16 11:04:13'),
-(3, 'Ama fani', 'CEO1', '1734373027-istockphoto-914118332-170667a.jpg', 'ama-fani', '2024-12-16 11:14:22', '2024-12-16 11:17:07');
+(2, 'Ama fani', 'CEO1', '1734373027-istockphoto-914118332-170667a.jpg', 'ama-fani', '2024-12-16 11:14:22', '2024-12-16 11:17:07');
 
 -- --------------------------------------------------------
 
